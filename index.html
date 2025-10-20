@@ -27,15 +27,30 @@
   flex-wrap: wrap;
   padding: 20px;
 }
+       /* Stickers CSS */
     .sticker {
-  position: fixed;   /* sticker floats on top of everything */
-  top: 50px;         /* distance from top of screen */
-  left: 50px;        /* distance from left of screen */
-  width: 100px;      /* size of sticker */
-  height: auto;      /* keep GIF proportions */
-  z-index: 9999;     /* make sure it stays on top */
-  pointer-events: none; /* clicks pass through it */
-}
+      position: fixed;
+      width: 80px;
+      height: auto;
+      z-index: 9999;
+      pointer-events: none;
+    }
+
+    .sticker1 {
+      top: 20px;
+      left: 20px;
+    }
+
+    .sticker2 {
+      top: 100px;
+      right: 50px;
+    }
+
+    .sticker3 {
+      bottom: 50px;
+      left: 200px;
+    }
+
 
     .card {
       max-width: 340px;
